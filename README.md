@@ -39,8 +39,8 @@ The analyzer generates:
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/MPkS1/vertical-jump-analizer.git
-cd vertical-jump-analizer
+git clone https://github.com/MPkS1/vertical-jump-analyzer.git
+cd vertical-jump-analyzer
 ```
 
 2. Install dependencies:
