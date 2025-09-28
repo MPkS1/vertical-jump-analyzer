@@ -1,0 +1,117 @@
+🚀 VERTICAL JUMP ANALYSIS - QUICK START GUIDE
+====================================================
+
+✅ Your environment is ready! Here's how to use it:
+
+📋 STEP-BY-STEP INSTRUCTIONS:
+----------------------------------------------------
+
+1. 📹 PREPARE YOUR VIDEO:
+   - Name your video exactly: "Vertical Jump.mp4"
+   - Place it in this directory: c:\Users\purus\Desktop\vj\
+   - Ensure the person is fully visible throughout the video
+   - Good lighting and minimal background clutter work best
+
+2. 🎯 RUN THE ANALYSIS:
+   Open PowerShell/Command Prompt and run:
+   
+   cd "c:\Users\purus\Desktop\vj"
+   .\.venv\Scripts\python.exe jump_analyzer_enhanced.py
+
+3. 🎮 DURING PROCESSING:
+   - Watch the real-time skeleton tracking
+   - Press SPACE to pause/resume
+   - Press 'Q' to quit
+   - Press 'S' to skip 60 frames
+
+4. 📊 GET YOUR RESULTS:
+   After processing, you'll get:
+   - enhanced_jump_analysis_output.mp4 (processed video)
+   - jump_analysis_enhanced.png (analysis graphs)
+   - Console output with detailed metrics
+
+🔬 WHAT YOU'LL GET:
+----------------------------------------------------
+📈 Comprehensive Analysis Graphs:
+   ✓ Hip height over time with jump detection
+   ✓ Vertical velocity analysis  
+   ✓ Knee flexion angles
+   ✓ Performance summary metrics
+
+💪 Lower Body Explosive Strength Analysis:
+   ✓ Average Explosive Power Score
+   ✓ Peak Power Output
+   ✓ Power Consistency Rating
+   ✓ Overall Strength Rating (Excellent/Very Good/Good/Fair/Needs Improvement)
+
+📊 Detailed Metrics:
+   ✓ Total jumps detected
+   ✓ Maximum velocity and acceleration
+   ✓ Jump heights and timing
+   ✓ Knee flexion patterns
+
+🎥 Enhanced Video Output:
+   ✓ Real-time skeleton overlay
+   ✓ Live performance metrics
+   ✓ Jump detection markers
+   ✓ Color-coded body parts
+
+🛠️ TROUBLESHOOTING:
+----------------------------------------------------
+If you get errors:
+
+❌ "Video file not found":
+   → Make sure your video is named exactly "Vertical Jump.mp4"
+
+❌ TensorFlow errors:
+   → Run: .\.venv\Scripts\python.exe -m pip install --upgrade tensorflow
+
+❌ OpenCV errors:
+   → Run: .\.venv\Scripts\python.exe -m pip install --upgrade opencv-python
+
+❌ Out of memory:
+   → Try with a shorter video or lower resolution
+
+🎯 TIPS FOR BEST RESULTS:
+----------------------------------------------------
+✅ Video Quality:
+   - 30+ FPS for smooth tracking
+   - 1080p or higher resolution
+   - Stable camera position
+   - Person fully visible in frame
+
+✅ Lighting & Background:
+   - Good, even lighting
+   - Avoid shadows on the person
+   - Simple background (avoid clutter)
+   - Contrasting colors between person and background
+
+✅ Jump Technique:
+   - Perform clear, distinct jumps
+   - Allow 2-3 seconds between jumps
+   - Full crouch before each jump
+   - Land completely before next jump
+
+🔍 UNDERSTANDING YOUR RESULTS:
+----------------------------------------------------
+📊 Explosive Power Score:
+   - 800+: Excellent (Elite athlete level)
+   - 600-800: Very Good (Competitive athlete)
+   - 400-600: Good (Recreational athlete)
+   - 200-400: Fair (Beginner fitness level)
+   - <200: Needs Improvement
+
+📈 Power Consistency:
+   - 90%+: Very consistent technique
+   - 70-90%: Good consistency
+   - 50-70%: Moderate variation
+   - <50%: Highly variable technique
+
+🆘 NEED HELP?
+----------------------------------------------------
+Check the README.md file for detailed technical information.
+
+The analysis uses Google's MoveNet AI for precise body tracking,
+providing professional-grade sports science analysis!
+
+🏃‍♂️ Ready to analyze your jumps? Run the command above! 🏃‍♀️
