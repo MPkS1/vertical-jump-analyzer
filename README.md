@@ -65,13 +65,6 @@ python jump_analyzer_enhanced.py
 
 ## 📈 Understanding Results
 
-### Explosive Power Ratings
-- **800+**: Excellent (Elite athlete level)
-- **600-800**: Very Good (Competitive athlete)
-- **400-600**: Good (Recreational athlete)
-- **200-400**: Fair (Beginner level)
-- **<200**: Needs Improvement
-
 ### Power Consistency
 - **90%+**: Very consistent technique
 - **70-90%**: Good consistency
